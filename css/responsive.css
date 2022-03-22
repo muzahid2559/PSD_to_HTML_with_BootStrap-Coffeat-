@@ -1,0 +1,195 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 451.98px){
+/* menu part start */
+.navbar-brand {
+    margin-top: 20px;
+	width: 50px;
+}
+.menu-content h1{
+    font-size: 60px;
+}
+/* menu part end */
+
+/* about part start */
+.about-content h3 {
+	font-size: 16px;
+	margin-top: 0px;
+}
+.about-content p {
+	font-size: 14px;
+	text-align: justify;
+}
+.about-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.app{
+    text-align: center;
+}
+/* about part end */
+
+/* slider part start */
+.slider-content p {
+	font-size: 12px;
+	padding: 0;
+	margin-top: 10px;
+}
+/* slider part end */
+
+/* address part start   */
+.address-num p {
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+}
+.address-name h3 {
+	font-size: 14px;
+}
+.address-name p {
+	font-size: 10px;
+} 
+.margin-ad{
+    margin-top: 40px;
+}
+/* address part end */
+}
+    
+    
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 452px) and (max-width: 575.98px) { 
+/* menu part start */
+.navbar-brand {
+	width: 50px;
+}
+.menu-content h1{
+    font-size: 60px;
+}
+.menu-content {
+	padding: 200px 0;
+}
+/* menu part end */
+
+/* about part start */
+.about-content h3 {
+	font-size: 16px;
+	margin-top: 0px;
+}
+.about-content p {
+	font-size: 14px;
+	text-align: justify;
+}
+.about-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.app{
+    text-align: center;
+}
+/* about part end */
+
+/* slider part start */
+.slider-content p {
+	font-size: 12px;
+	padding: 0;
+	margin-top: 10px;
+}
+/* slider part end */
+
+/* address part start   */
+.address-num p {
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+}
+.address-name h3 {
+	font-size: 14px;
+}
+.address-name p {
+	font-size: 10px;
+}
+.margin-ad{
+    margin-top: 40px;
+} 
+/* address part end */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* about part start */
+.about-content h3 {
+	font-size: 16px;
+	margin-top: 0px;
+}
+.about-content p {
+	font-size: 16px;
+	text-align: justify;
+}
+.about-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.app{
+    text-align: center;
+}
+/* about part end */  
+
+/* slider part start */
+.slider-content p {
+	font-size: 14px;
+	padding: 0;
+	margin-top: 10px;
+}
+/* slider part end */
+
+/* address part start  */
+.address-num p {
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+}
+.address-name h3 {
+	font-size: 14px;
+}
+.address-name p {
+	font-size: 10px;
+} 
+.margin-ad{
+    margin-top: 40px;
+}
+/* address part end */
+}   
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* about part start */
+.about-content p {
+	font-size: 14px;
+	line-height: 24px;
+	padding: 0px 0px 0px 0px;
+}
+/* about part end */  
+
+/* slider part start */
+.slider-content p {
+	font-size: 14px;
+	padding: 0 30px;
+	margin-top: 10px;
+}
+/* slider part end */
+
+/* address part start  */
+.margin-ad{
+    margin-top: 40px;
+}
+/* address part end*/
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+            
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+        
+}
